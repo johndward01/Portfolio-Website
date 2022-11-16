@@ -3,11 +3,6 @@
 	.grey-bg, .white-bg{
 		padding: 40px 0; 
 	}
-	/*---- hero -----*/
-	.hero-content{
-		min-width: 280px; 
-		padding: 25px;
-	}
 	.menu-wrap{width: 220px;}
 	.mouse-icon{bottom: 5px;}
 
@@ -17,11 +12,6 @@
 		padding-top: 95%;
 	}
 
-	/*---- blog -----*/
-	.grid-item {
-    width: 100% !important;
-    padding: 0;
-  }
 
 	/*---- quote -----*/
 	.wrap-about{ 
@@ -66,10 +56,6 @@
 		width: 50%;
 	}
 
-
-  /*---- blog -----*/
-	.grid-item {width: 50%;}
-
   /*------- about -------*/
   .bg-about{min-height: 520px;}
   .wrap-about{
@@ -83,16 +69,7 @@
   .content-right{ margin-top: 20px; }
 
   .text-grey{margin-bottom: 45px;}
-  .skillst{ margin-top: 50px;}
-	/*------ footer -----*/
-  footer p{ text-align: center; }
-  footer ul.social {
-    margin-left: -40px;
-    text-align: center;
-	}
-	footer ul.social li { 
-		padding: 0px 10px 0px 10px;
-	}
+  .skillst{ margin-top: 50px;}	
 }
 
 @media screen and (min-width: 1024px){
