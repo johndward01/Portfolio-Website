@@ -51,16 +51,12 @@
 	/*------- home ------*/
 	#home p {width: 100%;}
 
-	/*----- portfolio -----*/
-	.portfolio-image > li{
-		width: 50%;
-	}
+	
 
   /*------- about -------*/
   .bg-about{min-height: 520px;}
   .wrap-about{
-  	min-height: 520px;
-  	padding-bottom: 10%;
+  	min-height: 500px;
   	padding-left: 30px;
     padding-right: 30px;
   }
