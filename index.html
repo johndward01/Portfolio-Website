@@ -4,11 +4,16 @@
     <meta charset="utf-8" />
     <title>John D. Ward</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="container">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-2">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark p-2">
       <button
         class="navbar-toggler"
         type="button"
@@ -28,27 +33,27 @@
             </a>
           </li>
           <li class="nav-item">
-            <a data-scroll="" href="#projects">
+            <a class="nav-link">
               <span>Projects</span>
             </a>
           </li>
           <li class="nav-item">
-            <a data-scroll="" href="#employment">
+            <a class="nav-link">
               <span>Employment</span>
             </a>
           </li>
           <li class="nav-item">
-            <a data-scroll="" href="#skill">
+            <a class="nav-link">
               <span>Skills</span>
             </a>
           </li>
           <li class="nav-item">
-            <a data-scroll="" href="#education">
+            <a class="nav-link">
               <span>Education</span>
             </a>
           </li>
           <li class="nav-item">
-            <a data-scroll="" href="#testimonial">
+            <a class="nav-link">
               <span>Testimonial</span>
             </a>
           </li>
@@ -56,91 +61,65 @@
       </div>
     </nav>
 
-    <p class="head-about">
+    <h1>John Ward</h1>
+    <p>
       I'm a Full Stack .NET Developer specializing in C#. I primarily work with
       ASP.NET Core web applications, but have familiarity with WPF, Xamarin, and
       Unity scripting.
     </p>
 
-    <h5 class="name">John Ward</h5>
-
-    <table class="w-content">
+    <h1>Contact Info</h1>
+    <table>
       <tr>
-        <td class="title">Name</td>
-        <td class="break">:</td>
-        <td>John Ward</td>
-      </tr>
-      <tr>
-        <td class="title">Email</td>
-        <td class="break">:</td>
+        <td>Email</td>
+        <td>:</td>
         <td>
-          <a
-            href="https://johndward01@gmail.com"
-            data-hover="Gmail"
-            target="_blank"
+          <a href="https://johndward01@gmail.com" target="_blank"
             >johndward01@gmail.com</a
           >
         </td>
       </tr>
       <tr>
-        <td class="title">GitHub</td>
-        <td class="break">:</td>
+        <td>GitHub</td>
+        <td>:</td>
         <td>
-          <a
-            href="https://github.com/johndward01"
-            data-hover="GitHub"
-            target="_blank"
+          <a href="https://github.com/johndward01" target="_blank"
             >https://github.com/johndward01</a
           >
         </td>
       </tr>
       <tr>
-        <td class="title">Stack Overflow</td>
-        <td class="break">:</td>
+        <td>Linked in</td>
+        <td>:</td>
         <td>
-          <a
-            href="https://stackoverflow.com/users/8122581/john"
-            data-hover="Stack Overflow"
-            target="_blank"
-            >https://stackoverflow.com/users/8122581/john</a
-          >
-        </td>
-      </tr>
-      <tr>
-        <td class="title">Linked in</td>
-        <td class="break">:</td>
-        <td>
-          <a
-            href="https://www.linkedin.com/in/johndward11/"
-            data-hover="Linked In"
-            target="_blank"
+          <a href="https://www.linkedin.com/in/johndward11/" target="_blank"
             >https://www.linkedin.com/in/johndward11/</a
           >
         </td>
       </tr>
     </table>
+    <div>
+      <h1>Projects</h1>
 
-    <h3 class="title-small">
-      <span>Projects</span>
-    </h3>
-    <p class="content-detail">
-      Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
-      suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-      <br /><br />Duis autem vel eum iriure dolor in hendrerit in vulputate
-      velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis
-      at vero eros.
-    </p>
-    <img alt="image" src="images/bw-1.png" />
-    <p>ASP.NET Core MVC w/ Identity</p>
-    <br />
-    <img alt="image" src="images/bw-2.png" />
-    <p>ASP.NET Core Web API</p>
-    <br />
-    <img alt="image" src="images/bw-3.png" />
-    <p>ASP.NET Core Minimal API</p>
-    <br />
-    <img alt="image" src="images/bw-4.png" />
-    <p>ASP.NET Core Blazor SPA</p>
+      <img alt="image" src="images/bw-1.png" class="img-fluid" />
+      <p>ASP.NET Core MVC w/ Identity</p>
+
+      <br />
+
+      <img alt="image" src="images/bw-2.png" class="img-fluid" />
+      <p>ASP.NET Core Web API</p>
+
+      <br />
+
+      <img alt="image" src="images/bw-3.png" class="img-fluid" />
+      <p>ASP.NET Core Minimal API</p>
+
+      <br />
+
+      <img alt="image" src="images/bw-4.png" class="img-fluid" />
+      <p>ASP.NET Core Blazor SPA</p>
+    </div>
+
     <h3 class="title-small">
       <span>Employment</span>
     </h3>
@@ -209,22 +188,12 @@
           nobis videntur parum clari, fiant sollemnes.
         </p>
       </li>
-
-      <li>
-        <h2 class="year">2005 - 2007</h2>
-        <p class="job">DKV</p>
-        <p class="company">UNIKOM</p>
-        <hr />
-        <p>
-          Claritas est etiam processus dynamicus, qui sequitur mutationem
-          consuetudium lectorum. Mirum est notare quam littera gothica, quam
-          nunc putamus parum claram, anteposuerit litterarum formas humanita per
-          seacula quarta decima et quinta decima. Eodem modo typi, qui nunc
-          nobis videntur parum clari, fiant sollemnes.
-        </p>
-      </li>
     </ul>
 
-    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
